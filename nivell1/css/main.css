@@ -10645,4 +10645,17 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.box-div {
+  position: absolute;
+  top: 190px;
+  right: 0;
+  height: 30%;
+  max-height: 500px;
+  width: 40%;
+  max-width: 900px;
+  background-color: #5265E1;
+  border-radius: 50% 0% 0% 50%;
+  z-index: -3;
+}
 /*# sourceMappingURL=main.css.map */
