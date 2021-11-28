@@ -53,67 +53,137 @@
     <main class="container-xl ">
 
         <!-- ejercicio 1 -->
-        <article class="p-5">
-            <div class="row">
-                <div class="col-12 p-5 col-sm-6 order-sm-first order-last align-self-center">
-                    <!--  -->
-                    <h1 class="text-start  font-weight  fs-1">A Simple Bookmark Manager</h1>
+        <article>
+            <div class="row mt-4">
+                <div class=" col-sm-6 order-sm-first order-last text-start  font-weight fs-3 mt-3">
+                    <!-- <h1 class="col-12 text-center font-weight fs-4 mt-3 ">A Simple Bookmark Manager</h1> -->
+
+                    <h1 class="text-start  fw-bold  fs-3 mt-3">A Simple Bookmark Manager</h1>
                     <!-- Destripción -->
-                    <p class="text-start text-justify">A clean and simple interface to organize your favourite websites.
+                    <p class="text-start text-justify  fs-5 ">A clean and simple interface to organize your
+                        favourite websites.
                         Open a new browser tab and see your sites load instantly. Try it for free.
                     </p>
                     <!-- BOTONES -->
                     <form class="d-flex">
-                        <button class="btn  btn btn-primary active " type="button">Get it on
+                        <button class="btn btn-primary active " type="button">Get it on
                             Chrome</button>
-                        <button class="btn  btn btn-light ms-2" type="button">Get it on Firefox</button>
+                        <button class="btn btn-light ms-2" type="button">Get it on Firefox</button>
                     </form>
                 </div>
 
                 <div class="col-12  col-sm-6">
-                    <img src="/images/illustration-hero.svg" class=" img-fluid" alt="illustration-hero">
+                    <img src="../images/illustration-hero.svg" class=" img-fluid" alt="illustration-hero">
                     <div class="box-div"></div>
                 </div>
             </div>
         </article>
         <!-- /ejercicio 1 -->
 
-        <!-- 
-
-
-
-         -->
+        <!--   -->
 
         <!-- /ejercicio 2 -->
 
 
-        <article>
+        <article class="mt-4 ">
 
-            <div class="row">
-                <div class="col-12 p-5 col-sm-6 ">
-                    <h1 class="text-center font-weight fs-3 "> Features </h1>
-                    <p class="text-center fs-5">Our aim is to make it quick and easy for you to access your favourite
-                        websites. Your bookmarks sync between your devices so you can access them on the bo.</p>
+            <div class="row mt-3 ">
+                <div class="col text-center  p-5 ">
+                    <h1 class=" fw-bold fs-3 "> Features </h1>
+                    <p class="text-muted fs-5 ">Our aim is to make it quick and easy for you to access your
+                        favourite websites. Your bookmarks sync between your devices so you can access them on the bo.
+                    </p>
                 </div>
 
             </div>
-            <div class=" row">
+            <div class=" row pt-2">
 
                 <div class="col-12 col-sm-6">
-                    <h1>tab</h1>
+                    <h1>
+                        Bootstrap Tabs!</h1>
+                    <ul class="nav nav-tabs" id="myTab">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Simple Bookmarking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Speedy Seaching</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Easy Sharing</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="tab-content my-tab">
+                        <div class="tab-pane active" id="home">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>
+                                        Tab One</h3>
+                                    <p>
+                                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                        been
+                                        the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="profile">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>
+                                        Tab Two</h3>
+                                    <p>
+                                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                        been
+                                        the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="messages">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h3>
+                                        Tab Three</h3>
+                                    <p>
+                                        is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                        been
+                                        the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                        took a galley of type and scrambled it to make a type specimen book.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
 
                 </div>
+
+
+
+
             </div>
         </article>
         <!-- /ejercicio 2 -->
 
+
+
         <!-- /ejercicio 3 -->
         <article>
 
-            <div class="row">
+            <div class="row mt-4 ">
                 <div class="col-12 col-sm-6 ">
-                    <h1 class="text-center"> Download the extension </h1>
-                    <p>We've got more browsars in the pipeñine. Please do let us know if you've got a favourite you'd
+                    <h1 class="text-center font-weight fs-3 "> Download the extension </h1>
+                    <p class="text-center fs-5 ">We've got more browsars in the pipeñine. Please do let us know if
+                        you've
+                        got a favourite you'd
                         like us to prioritize.</p>
                 </div>
 
@@ -148,8 +218,9 @@
 
             <div class="row">
                 <div class="col-12 col-sm-6 ">
-                    <h1 class="text-center">Frequently Asked Questions</h1>
-                    <p>Here are some of FAQs. if you have any other questions you'd like answered please feel free to
+                    <h1 class="text-center font-weight fs-3 ">Frequently Asked Questions</h1>
+                    <p class="text-center fs-5">Here are some of FAQs. if you have any other questions you'd like
+                        answered please feel free to
                         email us.</p>
                 </div>
             </div>
